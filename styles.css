@@ -1,0 +1,29 @@
+#game {
+    border: 1px solid black;
+    margin: auto;
+    width: 800;
+    height: 600;
+    color: lightblue;
+}
+
+#hero {
+    border: 1px solid green;
+    background-color: yellow;
+    color: black;
+    width: 40;
+    height: 30;
+}
+
+.warning {
+    font-size: xx-large;
+    color: red;
+    padding-left: 160px;
+    padding-top: 280px;
+}
+
+.platform{
+    border: 1px solid brown;
+    background-color: brown;
+    width: 80;
+    height: 10;
+}
