@@ -10,8 +10,8 @@
     border: 1px solid green;
     background-color: yellow;
     color: black;
-    width: 40;
-    height: 30;
+    width: 30;
+    height: 20;
 }
 
 .warning {
@@ -21,7 +21,7 @@
     padding-top: 280px;
 }
 
-.platform{
+.platform {
     border: 1px solid brown;
     background-color: brown;
     width: 80;

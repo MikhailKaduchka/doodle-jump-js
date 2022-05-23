@@ -1,19 +1,25 @@
-# Simple platform game in JS
+# Простой платформер на javascript + HTML + CSS
 
-
-## Concepts
+## Концепции
 
 ### HTML
-- Elements 
+- Элементы
+    - `<HTML>`
+    - `<HEAD>`
+    - `<BODY>`
+    - `<DIV>`
+    - Остальные опционально
 
 ### CSS 
-- Styles for elements
+- Что такое стили
+- Ширина, высота, цвет
+- Остальные опционально
 
 ### JS
-- Variables
-- Functions
-- Statements
-- Loops
-- Events: intervals and keybindings
-- Randomness: platfrom generation
+- Переменные
+- Функции
+- Условия
+- Циклы
+- События: интервал и нажатие клавиш
+- Случайные числа
 
