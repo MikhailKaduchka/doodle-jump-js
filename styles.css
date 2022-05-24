@@ -1,29 +1,58 @@
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    flex: 1 1 0px;
+}
+
 #game {
     border: 1px solid black;
-    margin: auto;
-    width: 800;
-    height: 600;
+    width: 480;
+    height: 640;
     color: lightblue;
+    background-image: url("img/sky.jpg");
+    flex: inherit;
 }
 
 #hero {
-    border: 1px solid green;
-    background-color: yellow;
-    color: black;
-    width: 30;
-    height: 20;
+    background-size: contain;
+    width: 34;
+    height: 48;
 }
 
-.warning {
-    font-size: xx-large;
-    color: red;
-    padding-left: 160px;
-    padding-top: 280px;
+#hero.left {
+    background-image: url("img/zombie-left.png");
+}
+
+#hero.right {
+    background-image: url("img/zombie-right.png");
 }
 
 .platform {
-    border: 1px solid brown;
-    background-color: brown;
+    background-image: url("img/platform.png");
+    background-size: contain;
+    background-repeat: repeat-x;
     width: 80;
-    height: 10;
+    height: 20;
+    border-radius: 3px;
+}
+
+.center {
+    margin: auto;
+}
+
+.start-button {
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 80px;
+    color: blue;
+    text-align: center;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 100px;
+    cursor: pointer;
+    height: 20px;
+    flex: inherit;
 }
