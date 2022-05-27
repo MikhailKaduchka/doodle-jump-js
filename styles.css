@@ -8,7 +8,7 @@
 }
 
 #game {
-    border: 1px solid black;
+    border: 5px solid black;
     width: 480;
     height: 640;
     color: lightblue;
@@ -30,6 +30,12 @@
     background-image: url("img/zombie-right.png");
 }
 
+#score {
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
 .platform {
     background-image: url("img/platform.png");
     background-size: contain;
@@ -46,12 +52,12 @@
 .start-button {
     background-color: lightblue;
     border: 1px solid black;
-    width: 80px;
+    width: 100px;
     color: blue;
     text-align: center;
     padding: 5px;
-    margin-left: 50px;
-    margin-top: 100px;
+    margin-left: 30px;
+    margin-top: 20px;
     cursor: pointer;
     height: 20px;
     flex: inherit;
